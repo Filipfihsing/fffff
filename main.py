@@ -66,7 +66,38 @@ index.htme
 
 
 
+ body {
+    background-color: antiquewhite;
+ }
+ 
+ p {
+    font-size: 20px;
+ }
+h1,
+h2 {
+    text-align: center;
+    color:red;
 
+    animation: animacja 2s infinitie
+}
+@keyframes color-change {
+          0% {
+            color: blue;
+          }
+
+          50% {
+            color: red;
+          }
+
+          100% {
+            color: rgb(0, 255, 170);
+          }
+        }
+
+        h1 {
+          animation: color-change 3s infinite;
+        }
+      
 
 
 
